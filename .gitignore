@@ -31,3 +31,9 @@ src/.libs/
 *.diff
 *.png
 *.catalog
+Debug
+Release
+src/utilities/Debug
+src/utilities/Release
+.vs
+x64
