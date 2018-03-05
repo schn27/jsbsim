@@ -194,7 +194,7 @@ void FGInputSocket::Read(bool Holding)
           }
         } else if (node > 0) {
           ostringstream buf;
-          buf << argument << " = " << setw(12) << setprecision(6) << node->getDoubleValue() << endl;
+          buf << argument << " = " << setprecision(16) << node->getDoubleValue() << endl;
           socket->Reply(buf.str());
         }
 
